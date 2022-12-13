@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form>
+        <label>First Name :</label>
+        <input type="text" name="firstName" placeholder="First name" required> <br> <br>
+        <label>Last Name :</label>
+        <input type="text" name="lastName" placeholder="Last name" required> <br> <br>
+        <label> Email :</label>
+        <input type="email" name="email" placeholder="enter email" required> <br> <br>
+        <label>Password :</label>
+        <input type="password" name="password" placeholder="enter password" required> <br> <br>
+        <label>Confirm Password :</label>
+        <input type="password" name="confirmPassword" placeholder="confirm password" required> <br> <br>
+        <label>DATE OF BIRTH : </label>
+        <input type="date" name="dob" required> <br> <br>
+        <!-- Radio Buttons....Name remains same....value must be different-->
+        <label>Gender</label> <br>
+         Male : <input type="radio" name="Gender" value="male"> <br>
+         Female : <input type="radio" name="Gender" value="female"> <br>
+         Other : <input type="radio" name="Gender" value="Other"> <br> <br>
+         <!--Checkbox-->
+        <label>Hobbies :</label> <br>
+        Coding : <input type="checkbox" name="hobbies" value="coding"><br>
+        cricket : <input type="checkbox" name="hobbies" value="cricket"><br>
+        reading : <input type="checkbox" name="hobbies" value="reading"><br> <br>
+        <!-- Select Tag -->
+        <label>Semester :</label> <br>
+        <select name="semester">
+            <option value="abc">abc</option>
+            <option value="pqr">pqr</option>
+            <option value="xyz">xyz</option>
+        </select> <br> <br>
+        <!-- Text Area -->
+        <textarea name="" id="" cols="25" rows="5"></textarea>
+        <!--           -->
+        <input type="color" name="colour">
+        <!-- Range -->
+        <label>Points 0 to 5 :</label>
+        <input type="range" name="points" min="0" max="5" >
+        <!-- Submit Button -->
+        <input type="submit" value="Register yourself">
+    </form>
+</body>
+</html>
+
+?firstName=danish
+&lastName=yousuf
+&email=danish%40gmail.com
+&password=123
+&confirmPassword=123
+&dob=2022-12-10
+&Gender=male
+&hobbies=coding&hobbies=cricket
+&semester=pqr
